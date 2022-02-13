@@ -4,7 +4,6 @@ import Notiflix from 'notiflix';
 import { fetchCountries } from './js/fetchCountries';
 import createCountriesListTmp from './template/createCountriesList.hbs';
 import createCountryCardTmp from './template/createCountryCardTmp.hbs';
-
 const DEBOUNCE_DELAY = 300;
 const inputCountry = document.querySelector('#search-box');
 const countryList = document.querySelector('.country-list');
